@@ -3,7 +3,7 @@
     "document_id": "X0t2d4_Tc2mdPpUJjt8N",
     "original_document_id": "X0t2d4_Tc2mdPpUJjt8N",
     "version": "23",
-    "lastChanged": "1585501004724",
+    "lastChanged": "1585506607252",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -33,6 +33,9 @@
                         "Initial Warning Alpha"
                     ],
                     [
+                        "NoSound"
+                    ],
+                    [
                         "Overlap Detection"
                     ],
                     [
@@ -49,9 +52,7 @@
         },
         "SceneTreeUiComponent": {
             "collapsedList": [
-                [
-                    "1585491042144921:41775"
-                ]
+                ""
             ]
         },
         "MetaInfoUIComponent": {
@@ -150,6 +151,14 @@
                     "resId": "12",
                     "uid": "1585500672867159:340100",
                     "name": "Files\/File6.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "16",
+                    "uid": "1585506601086674:438828",
+                    "name": "Files\/File11.mp3",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -300,7 +309,8 @@
                 "8": "1585494243128537:118438",
                 "9": "1585494243153927:118580",
                 "10": "1585499645429088:277278",
-                "11": "1585499645464004:277413"
+                "11": "1585499645464004:277413",
+                "12": "1585503285124746:368009"
             }
         },
         "LayerComponent": {
@@ -346,6 +356,10 @@
                 {
                     "k": "6",
                     "v": "Files\/File6.js"
+                },
+                {
+                    "k": "11",
+                    "v": "Files\/File11.mp3"
                 }
             ]
         },
@@ -377,6 +391,10 @@
                     {
                         "k": "646",
                         "v": "Initial Warning Alpha.js"
+                    },
+                    {
+                        "k": "650",
+                        "v": "NoSound.mp3"
                     }
                 ],
                 "hashes": [
@@ -394,19 +412,35 @@
                     },
                     {
                         "k": "4",
-                        "v": "added6d929cabfa5d6ab51a402d91bf2"
+                        "v": "7587a105e884e9162e77602b776e3601"
                     },
                     {
                         "k": "646",
                         "v": "3a821f27ae01a51f2cb13c612b8ea442"
+                    },
+                    {
+                        "k": "647",
+                        "v": "fb9768cdc7c0488f94b8189319e5b946"
+                    },
+                    {
+                        "k": "648",
+                        "v": "34f998fb1746c2d81e535da650c697d1"
+                    },
+                    {
+                        "k": "649",
+                        "v": "4d55045140a0e349f0c9500c4b300e9a"
+                    },
+                    {
+                        "k": "650",
+                        "v": "1c3f65a95f26976cae3a2f36af19a635"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-03-29T12:56:19",
+                        "lastModified": "2020-03-29T14:30:01",
                         "name": "Public",
-                        "hash": "152e42e0ce12678426bb88a3ffa5cc44",
+                        "hash": "dcc66875b8fc764aff453e0e5fd881fd",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -431,6 +465,13 @@
                             },
                             {
                                 "isFolder": "false",
+                                "lastModified": "2020-03-29T14:29:09",
+                                "name": "NoSound.mp3",
+                                "hash": "1c3f65a95f26976cae3a2f36af19a635",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
                                 "lastModified": "2020-03-29T10:02:17",
                                 "name": "X_Spot.png",
                                 "hash": "0b2e22a8b8b8b7d27f35c23e8dc6d42b",
@@ -438,9 +479,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T12:56:19",
+                                "lastModified": "2020-03-29T14:24:52",
                                 "name": "Overlap Detection.js",
-                                "hash": "added6d929cabfa5d6ab51a402d91bf2",
+                                "hash": "7587a105e884e9162e77602b776e3601",
                                 "children": ""
                             },
                             {
@@ -558,12 +599,29 @@
                         "publicId": "646",
                         "source": "\/var\/folders\/s_\/tvtszf7j2qs32p9nc96p655m0000gn\/T\/Lens Studio-QyKovc\/\/system\/\/emergencyFiles\/emergencyJs.js",
                         "additional": ""
+                    },
+                    {
+                        "name": "NoSound",
+                        "type": "5",
+                        "subtype": "0",
+                        "resourceId": "16",
+                        "dependency": "0",
+                        "uid": "1585506601086674:438828",
+                        "fileId": "11",
+                        "originalId": "18446744073709551615",
+                        "publicId": "650",
+                        "source": "\/Users\/ejwessel\/Downloads\/NoSound.mp3",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1585503285124746:368009"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
