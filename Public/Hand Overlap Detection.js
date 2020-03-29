@@ -9,7 +9,7 @@ var facePosition = script.face.getTransform().getLocalPosition()
 var handPosition = script.hand.getTransform().getLocalPosition()
 
 print("Distance: " + handPosition.distance(facePosition))
-if (script.hand.isTracking() && handPosition.distance(facePosition) < 5) {
+if (script.hand.isTracking() && handPosition.distance(facePosition) < 7) {
     // FACE IS BEING TOUCHED
     var originalColor = script.hand.getSceneObject().getChild(0).getComponent("Component.Image").getMaterial(0).mainPass.baseColor
     originalColor.w = 1

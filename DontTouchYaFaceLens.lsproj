@@ -3,7 +3,7 @@
     "document_id": "X0t2d4_Tc2mdPpUJjt8N",
     "original_document_id": "X0t2d4_Tc2mdPpUJjt8N",
     "version": "23",
-    "lastChanged": "1585510273768",
+    "lastChanged": "1585511298404",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -466,7 +466,7 @@
                     },
                     {
                         "k": "646",
-                        "v": "19b3469a17a3b8239f41083409430306"
+                        "v": "589e5059a846c3a9f595a25a17ce0ef8"
                     },
                     {
                         "k": "647",
@@ -486,7 +486,7 @@
                     },
                     {
                         "k": "651",
-                        "v": "0a350c8a4f7fc92182efbcc94e706b44"
+                        "v": "7e45b945ba8a46df2ee5988855227e69"
                     },
                     {
                         "k": "652",
@@ -500,9 +500,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-03-29T15:28:15",
+                        "lastModified": "2020-03-29T15:36:35",
                         "name": "Public",
-                        "hash": "8e99e0e8b7cfda3e0043e9b99f4e5833",
+                        "hash": "0ad666bfbf50a755090f6c1e008bb403",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -541,16 +541,16 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T15:06:55",
+                                "lastModified": "2020-03-29T15:36:35",
                                 "name": "Face Overlap Detection.js",
-                                "hash": "19b3469a17a3b8239f41083409430306",
+                                "hash": "589e5059a846c3a9f595a25a17ce0ef8",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T15:04:00",
+                                "lastModified": "2020-03-29T15:35:59",
                                 "name": "Hand Overlap Detection.js",
-                                "hash": "0a350c8a4f7fc92182efbcc94e706b44",
+                                "hash": "7e45b945ba8a46df2ee5988855227e69",
                                 "children": ""
                             },
                             {
@@ -722,9 +722,9 @@
             "selection": {
                 "resources": [
                     {
-                        "uid": "1585509890168687:544848",
+                        "uid": "1585507476017993:486679",
                         "path_list": [
-                            "Screen Shot 2020-03-29 at 3"
+                            "Hand Overlap Detection"
                         ]
                     }
                 ]
