@@ -1,0 +1,762 @@
+{
+    "lens_id": "67f0fc99-7c4b-4804-92e2-8fe367e28fc2",
+    "document_id": "X0t2d4_Tc2mdPpUJjt8N",
+    "original_document_id": "X0t2d4_Tc2mdPpUJjt8N",
+    "version": "23",
+    "lastChanged": "1585518515228",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
+    "videoPreviewUpdateTime": "",
+    "isReadOnly": "false",
+    "isAutoSaved": "false",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Public",
+            "major": "2",
+            "minor": "3",
+            "patch": "1",
+            "build": "0"
+        },
+        "lastSavedWith": {
+            "type": "Public",
+            "major": "2",
+            "minor": "3",
+            "patch": "1",
+            "build": "0"
+        }
+    },
+    "view": {
+        "ResourceUiComponent": {
+            "collapsedList": [
+                [
+                    [
+                        "DontTouchFaceIcon"
+                    ],
+                    [
+                        "Face Overlap Detection"
+                    ],
+                    [
+                        "Hand Overlap Detection"
+                    ],
+                    [
+                        "NoSound"
+                    ],
+                    [
+                        "black_x_spot"
+                    ],
+                    [
+                        "echopark_diff"
+                    ],
+                    [
+                        "echopark_spec"
+                    ],
+                    [
+                        "red_x_spot"
+                    ]
+                ]
+            ]
+        },
+        "SceneTreeUiComponent": {
+            "collapsedList": [
+                ""
+            ]
+        },
+        "MetaInfoUIComponent": {
+            "icon_hash": "5fbd4e6e4bdb36f0efa4d08211d248ee",
+            "icon_path": "icon.png",
+            "video_preview_path": "preview.mp4",
+            "hints": [
+                ""
+            ],
+            "lens": "Dont Touch Ya Face",
+            "applicability": "3",
+            "lens_descriptors": ""
+        },
+        "PreviewUiComponent": {
+            "preview_descriptor": {
+                "is_capture": "0",
+                "camera_type": "2"
+            },
+            "show_snap_ui": "true",
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "back_preview_id": "bundle:PreviewPresets\/Images\/Beach.jpg",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:PreviewPresets\/Images\/Person 4.jpg",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:PreviewPresets\/Images\/Pavement\/Pavement.jpg",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "back_preview_id": "bundle:PreviewPresets\/Videos\/Beach.webm",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:PreviewPresets\/Videos\/Idle Person 1.webm",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:PreviewPresets\/Videos\/Climbing\/Climbing.webm",
+                "spectacles_preview_is_favorite": "false"
+            }
+        },
+        "InspectorUiComponent": {
+            "collapsedList": [
+                ""
+            ]
+        },
+        "UiComponent": {
+            "active_graph_material": "-1:-1",
+            "active_graph_pass": "-1"
+        }
+    },
+    "model": {
+        "IResourceManager": {
+            "list": [
+                {
+                    "resId": "1",
+                    "uid": "1:1",
+                    "name": "Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "2",
+                    "uid": "2:2",
+                    "name": "Camera Input",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "8",
+                    "uid": "1517446348230286:84828",
+                    "name": "\/Resources\/Resource8.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "9",
+                    "uid": "1517446348234137:84840",
+                    "name": "\/Resources\/Resource9.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "10",
+                    "uid": "1585490539725662:8873",
+                    "name": "Files\/File3.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "12",
+                    "uid": "1585500672867159:340100",
+                    "name": "Files\/File6.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "16",
+                    "uid": "1585506601086674:438828",
+                    "name": "Files\/File11.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "17",
+                    "uid": "1585507476017993:486679",
+                    "name": "Files\/File12.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "19",
+                    "uid": "1585509890168687:544848",
+                    "name": "Files\/File15.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "20",
+                    "uid": "1585516707180800:6738",
+                    "name": "Files\/File17.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                }
+            ],
+            "MaterialUpdateManager": {
+                "unrecognizedMaterials": ""
+            }
+        },
+        "InspectorComponent": {
+            "Component": {
+                "EyeColorVisual": {
+                    "uidData": "",
+                    "generalData": ""
+                },
+                "FaceStretchVisual": {
+                    "uidsToFeatureNamesWithIntensity": ""
+                },
+                "ScreenTransform": {
+                    "uidData": [
+                        {
+                            "k": "1585491042069500:41500",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1585491042097874:41634",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1585491042145129:41776",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1585494243104094:118305",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1585494243128699:118439",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1585494243154092:118581",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1585499645429829:277280",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1585499645464178:277414",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        }
+                    ],
+                    "generalData": ""
+                }
+            }
+        },
+        "RenderOrderComponent": {
+            "autoRenderOrder": {
+                "0": "1517446348227994:84813",
+                "1": "1517446348228144:84822",
+                "2": "1528843813151434:5126",
+                "3": "1585490301204335:1833",
+                "4": "1585491042069280:41499",
+                "5": "1585491042097658:41633",
+                "6": "1585491042144921:41775",
+                "7": "1585494243103808:118304",
+                "8": "1585494243128537:118438",
+                "9": "1585494243153927:118580",
+                "10": "1585499645429088:277278",
+                "11": "1585499645464004:277413",
+                "12": "1585503285124746:368009"
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "2",
+            "showOrthographicLayer": "true",
+            "layersInfo": [
+                {
+                    "layerId": "0",
+                    "layerName": "Default Layer",
+                    "layerMask": "1",
+                    "colorCode": "20"
+                },
+                {
+                    "layerId": "1",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576",
+                    "colorCode": "21"
+                }
+            ]
+        },
+        "IFileManager": {
+            "pathes": [
+                {
+                    "k": "1",
+                    "v": "Files\/File1.png"
+                },
+                {
+                    "k": "2",
+                    "v": "Files\/File2.png"
+                },
+                {
+                    "k": "3",
+                    "v": "Files\/File3.png"
+                },
+                {
+                    "k": "4",
+                    "v": "Files\/File4.png"
+                },
+                {
+                    "k": "6",
+                    "v": "Files\/File6.js"
+                },
+                {
+                    "k": "11",
+                    "v": "Files\/File11.mp3"
+                },
+                {
+                    "k": "12",
+                    "v": "Files\/File12.js"
+                },
+                {
+                    "k": "15",
+                    "v": "Files\/File15.png"
+                },
+                {
+                    "k": "16",
+                    "v": "Files\/File16.png"
+                },
+                {
+                    "k": "17",
+                    "v": "Files\/File17.png"
+                },
+                {
+                    "k": "18",
+                    "v": "Files\/File18.png"
+                }
+            ]
+        },
+        "WorldComponent": {
+            "sceneFile": "scene.scn",
+            "sceneType": "binaryScene"
+        }
+    },
+    "controller": {
+        "IResourceController": {
+            "public": {
+                "pathes": [
+                    {
+                        "k": "1",
+                        "v": "echopark_diff.png"
+                    },
+                    {
+                        "k": "2",
+                        "v": "echopark_spec.png"
+                    },
+                    {
+                        "k": "3",
+                        "v": "black_x_spot.png"
+                    },
+                    {
+                        "k": "646",
+                        "v": "Face Overlap Detection.js"
+                    },
+                    {
+                        "k": "650",
+                        "v": "NoSound.mp3"
+                    },
+                    {
+                        "k": "651",
+                        "v": "Hand Overlap Detection.js"
+                    },
+                    {
+                        "k": "653",
+                        "v": "DontTouchFaceIcon.png"
+                    },
+                    {
+                        "k": "654",
+                        "v": "red_x_spot.png"
+                    }
+                ],
+                "hashes": [
+                    {
+                        "k": "1",
+                        "v": "671afbc1d6810060ccbaac866a91cfa1"
+                    },
+                    {
+                        "k": "2",
+                        "v": "8e599835d0d45c5879eafb1f474469cd"
+                    },
+                    {
+                        "k": "3",
+                        "v": "f81eca643a162dd9fc98ccd218d5c8a3"
+                    },
+                    {
+                        "k": "4",
+                        "v": "d44824a6ae8f09e9249dd1276ad16d27"
+                    },
+                    {
+                        "k": "646",
+                        "v": "589e5059a846c3a9f595a25a17ce0ef8"
+                    },
+                    {
+                        "k": "647",
+                        "v": "fb9768cdc7c0488f94b8189319e5b946"
+                    },
+                    {
+                        "k": "648",
+                        "v": "34f998fb1746c2d81e535da650c697d1"
+                    },
+                    {
+                        "k": "649",
+                        "v": "4d55045140a0e349f0c9500c4b300e9a"
+                    },
+                    {
+                        "k": "650",
+                        "v": "1c3f65a95f26976cae3a2f36af19a635"
+                    },
+                    {
+                        "k": "651",
+                        "v": "7e45b945ba8a46df2ee5988855227e69"
+                    },
+                    {
+                        "k": "652",
+                        "v": "c167d149c7c341eeb7a109c90762c329"
+                    },
+                    {
+                        "k": "653",
+                        "v": "5a7977a77e5a25449082af9e4835302a"
+                    },
+                    {
+                        "k": "654",
+                        "v": "fff3a61d41a6752865d5c227fd80d16c"
+                    }
+                ],
+                "publicState": {
+                    "tree": {
+                        "isFolder": "true",
+                        "lastModified": "2020-03-29T17:18:38",
+                        "name": "Public",
+                        "hash": "ccbdcf68223f1a1dc6e36efb934e8476",
+                        "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T17:05:52",
+                                "name": "echopark_diff.png",
+                                "hash": "671afbc1d6810060ccbaac866a91cfa1",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T17:05:52",
+                                "name": "echopark_spec.png",
+                                "hash": "8e599835d0d45c5879eafb1f474469cd",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T17:05:52",
+                                "name": "DontTouchFaceIcon.png",
+                                "hash": "5a7977a77e5a25449082af9e4835302a",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T17:05:52",
+                                "name": "NoSound.mp3",
+                                "hash": "1c3f65a95f26976cae3a2f36af19a635",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T17:18:06",
+                                "name": "red_x_spot.png",
+                                "hash": "fff3a61d41a6752865d5c227fd80d16c",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T17:05:52",
+                                "name": "Face Overlap Detection.js",
+                                "hash": "589e5059a846c3a9f595a25a17ce0ef8",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T17:05:52",
+                                "name": "Hand Overlap Detection.js",
+                                "hash": "7e45b945ba8a46df2ee5988855227e69",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T17:05:52",
+                                "name": "black_x_spot.png",
+                                "hash": "f81eca643a162dd9fc98ccd218d5c8a3",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T17:05:52",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            }
+                        ]
+                    }
+                },
+                "complexResources": ""
+            },
+            "tree": {
+                "name": "",
+                "type": "0",
+                "subtype": "-1",
+                "resourceId": "-1",
+                "dependency": "0",
+                "uid": "-1:-1",
+                "fileId": "18446744073709551615",
+                "originalId": "18446744073709551615",
+                "publicId": "18446744073709551615",
+                "source": "",
+                "additional": "",
+                "resources": [
+                    {
+                        "name": "Render Target",
+                        "type": "1",
+                        "subtype": "1",
+                        "resourceId": "1",
+                        "dependency": "0",
+                        "uid": "1:1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Device Camera Texture",
+                        "type": "1",
+                        "subtype": "3",
+                        "resourceId": "2",
+                        "dependency": "0",
+                        "uid": "2:2",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "echopark_diff",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "8",
+                        "dependency": "0",
+                        "uid": "1517446348230286:84828",
+                        "fileId": "1",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "echopark_spec",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "9",
+                        "dependency": "0",
+                        "uid": "1517446348234137:84840",
+                        "fileId": "2",
+                        "originalId": "18446744073709551615",
+                        "publicId": "2",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "black_x_spot",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "10",
+                        "dependency": "0",
+                        "uid": "1585490539725662:8873",
+                        "fileId": "3",
+                        "originalId": "4",
+                        "publicId": "3",
+                        "source": "\/Users\/ejwessel\/Dev\/DontTouchYaFaceLens\/Public\/X_Spot.png",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Face Overlap Detection",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "12",
+                        "dependency": "0",
+                        "uid": "1585500672867159:340100",
+                        "fileId": "6",
+                        "originalId": "18446744073709551615",
+                        "publicId": "646",
+                        "source": "\/var\/folders\/s_\/tvtszf7j2qs32p9nc96p655m0000gn\/T\/Lens Studio-QyKovc\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "NoSound",
+                        "type": "5",
+                        "subtype": "0",
+                        "resourceId": "16",
+                        "dependency": "0",
+                        "uid": "1585506601086674:438828",
+                        "fileId": "11",
+                        "originalId": "18446744073709551615",
+                        "publicId": "650",
+                        "source": "\/Users\/ejwessel\/Downloads\/NoSound.mp3",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Hand Overlap Detection",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "17",
+                        "dependency": "0",
+                        "uid": "1585507476017993:486679",
+                        "fileId": "12",
+                        "originalId": "18446744073709551615",
+                        "publicId": "651",
+                        "source": "\/var\/folders\/s_\/tvtszf7j2qs32p9nc96p655m0000gn\/T\/Lens Studio-QyKovc\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "DontTouchFaceIcon",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "19",
+                        "dependency": "0",
+                        "uid": "1585509890168687:544848",
+                        "fileId": "15",
+                        "originalId": "16",
+                        "publicId": "653",
+                        "source": "\/Users\/ejwessel\/Desktop\/Screen Shot 2020-03-29 at 3.24.41 PM.png",
+                        "additional": ""
+                    },
+                    {
+                        "name": "red_x_spot",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "20",
+                        "dependency": "0",
+                        "uid": "1585516707180800:6738",
+                        "fileId": "17",
+                        "originalId": "18",
+                        "publicId": "654",
+                        "source": "\/Users\/ejwessel\/Downloads\/red_x_spot.png",
+                        "additional": ""
+                    }
+                ]
+            }
+        },
+        "InspectorController": {
+            "selection": {
+                "objects": [
+                    "1585491042144921:41775"
+                ]
+            }
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": "",
+            "17": "",
+            "18": "",
+            "19": "",
+            "20": "",
+            "22": "",
+            "23": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
+        }
+    }
+}
