@@ -1,9 +1,9 @@
 {
-    "lens_id": "",
+    "lens_id": "67f0fc99-7c4b-4804-92e2-8fe367e28fc2",
     "document_id": "X0t2d4_Tc2mdPpUJjt8N",
     "original_document_id": "X0t2d4_Tc2mdPpUJjt8N",
     "version": "23",
-    "lastChanged": "1585506607252",
+    "lastChanged": "1585510273768",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -30,22 +30,28 @@
             "collapsedList": [
                 [
                     [
-                        "Initial Warning Alpha"
+                        "DontTouchFaceIcon"
+                    ],
+                    [
+                        "Face Overlap Detection"
+                    ],
+                    [
+                        "Hand Overlap Detection"
                     ],
                     [
                         "NoSound"
                     ],
                     [
-                        "Overlap Detection"
-                    ],
-                    [
-                        "X_Spot"
+                        "black_x_spot"
                     ],
                     [
                         "echopark_diff"
                     ],
                     [
                         "echopark_spec"
+                    ],
+                    [
+                        "red_x_spot"
                     ]
                 ]
             ]
@@ -56,9 +62,13 @@
             ]
         },
         "MetaInfoUIComponent": {
+            "icon_hash": "5fbd4e6e4bdb36f0efa4d08211d248ee",
+            "icon_path": "icon.png",
             "video_preview_path": "preview.mp4",
-            "hints": "",
-            "lens": "Untitled",
+            "hints": [
+                ""
+            ],
+            "lens": "Dont Touch Ya Face",
             "applicability": "3",
             "lens_descriptors": ""
         },
@@ -72,7 +82,7 @@
             "preview_images_project_config": {
                 "back_preview_id": "bundle:PreviewPresets\/Images\/Beach.jpg",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:PreviewPresets\/Images\/Hand.jpg",
+                "front_preview_id": "bundle:PreviewPresets\/Images\/Person 4.jpg",
                 "front_preview_is_favorite": "false",
                 "spectacles_preview_id": "bundle:PreviewPresets\/Images\/Pavement\/Pavement.jpg",
                 "spectacles_preview_is_favorite": "false"
@@ -140,14 +150,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "11",
-                    "uid": "1585490755992207:19391",
-                    "name": "Files\/File5.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "12",
                     "uid": "1585500672867159:340100",
                     "name": "Files\/File6.js",
@@ -159,6 +161,30 @@
                     "resId": "16",
                     "uid": "1585506601086674:438828",
                     "name": "Files\/File11.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "17",
+                    "uid": "1585507476017993:486679",
+                    "name": "Files\/File12.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "18",
+                    "uid": "1585509612299826:528104",
+                    "name": "Files\/File13.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "19",
+                    "uid": "1585509890168687:544848",
+                    "name": "Files\/File15.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -350,16 +376,32 @@
                     "v": "Files\/File4.png"
                 },
                 {
-                    "k": "5",
-                    "v": "Files\/File5.js"
-                },
-                {
                     "k": "6",
                     "v": "Files\/File6.js"
                 },
                 {
                     "k": "11",
                     "v": "Files\/File11.mp3"
+                },
+                {
+                    "k": "12",
+                    "v": "Files\/File12.js"
+                },
+                {
+                    "k": "13",
+                    "v": "Files\/File13.png"
+                },
+                {
+                    "k": "14",
+                    "v": "Files\/File14.png"
+                },
+                {
+                    "k": "15",
+                    "v": "Files\/File15.png"
+                },
+                {
+                    "k": "16",
+                    "v": "Files\/File16.png"
                 }
             ]
         },
@@ -382,19 +424,27 @@
                     },
                     {
                         "k": "3",
-                        "v": "X_Spot.png"
-                    },
-                    {
-                        "k": "4",
-                        "v": "Overlap Detection.js"
+                        "v": "black_x_spot.png"
                     },
                     {
                         "k": "646",
-                        "v": "Initial Warning Alpha.js"
+                        "v": "Face Overlap Detection.js"
                     },
                     {
                         "k": "650",
                         "v": "NoSound.mp3"
+                    },
+                    {
+                        "k": "651",
+                        "v": "Hand Overlap Detection.js"
+                    },
+                    {
+                        "k": "652",
+                        "v": "red_x_spot.png"
+                    },
+                    {
+                        "k": "653",
+                        "v": "DontTouchFaceIcon.png"
                     }
                 ],
                 "hashes": [
@@ -408,15 +458,15 @@
                     },
                     {
                         "k": "3",
-                        "v": "0b2e22a8b8b8b7d27f35c23e8dc6d42b"
+                        "v": "f81eca643a162dd9fc98ccd218d5c8a3"
                     },
                     {
                         "k": "4",
-                        "v": "7587a105e884e9162e77602b776e3601"
+                        "v": "d44824a6ae8f09e9249dd1276ad16d27"
                     },
                     {
                         "k": "646",
-                        "v": "3a821f27ae01a51f2cb13c612b8ea442"
+                        "v": "19b3469a17a3b8239f41083409430306"
                     },
                     {
                         "k": "647",
@@ -433,14 +483,26 @@
                     {
                         "k": "650",
                         "v": "1c3f65a95f26976cae3a2f36af19a635"
+                    },
+                    {
+                        "k": "651",
+                        "v": "0a350c8a4f7fc92182efbcc94e706b44"
+                    },
+                    {
+                        "k": "652",
+                        "v": "c167d149c7c341eeb7a109c90762c329"
+                    },
+                    {
+                        "k": "653",
+                        "v": "5a7977a77e5a25449082af9e4835302a"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-03-29T14:30:01",
+                        "lastModified": "2020-03-29T15:28:15",
                         "name": "Public",
-                        "hash": "dcc66875b8fc764aff453e0e5fd881fd",
+                        "hash": "8e99e0e8b7cfda3e0043e9b99f4e5833",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -458,9 +520,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T12:54:11",
-                                "name": "Initial Warning Alpha.js",
-                                "hash": "3a821f27ae01a51f2cb13c612b8ea442",
+                                "lastModified": "2020-03-29T15:24:47",
+                                "name": "DontTouchFaceIcon.png",
+                                "hash": "5a7977a77e5a25449082af9e4835302a",
                                 "children": ""
                             },
                             {
@@ -472,16 +534,30 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T10:02:17",
-                                "name": "X_Spot.png",
-                                "hash": "0b2e22a8b8b8b7d27f35c23e8dc6d42b",
+                                "lastModified": "2020-03-29T15:19:43",
+                                "name": "red_x_spot.png",
+                                "hash": "c167d149c7c341eeb7a109c90762c329",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T14:24:52",
-                                "name": "Overlap Detection.js",
-                                "hash": "7587a105e884e9162e77602b776e3601",
+                                "lastModified": "2020-03-29T15:06:55",
+                                "name": "Face Overlap Detection.js",
+                                "hash": "19b3469a17a3b8239f41083409430306",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T15:04:00",
+                                "name": "Hand Overlap Detection.js",
+                                "hash": "0a350c8a4f7fc92182efbcc94e706b44",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T15:14:37",
+                                "name": "black_x_spot.png",
+                                "hash": "f81eca643a162dd9fc98ccd218d5c8a3",
                                 "children": ""
                             },
                             {
@@ -562,7 +638,7 @@
                         "additional": ""
                     },
                     {
-                        "name": "X_Spot",
+                        "name": "black_x_spot",
                         "type": "1",
                         "subtype": "9",
                         "resourceId": "10",
@@ -571,24 +647,11 @@
                         "fileId": "3",
                         "originalId": "4",
                         "publicId": "3",
-                        "source": "\/Users\/ejwessel\/Downloads\/noun_X_1890844.png",
+                        "source": "\/Users\/ejwessel\/Dev\/DontTouchYaFaceLens\/Public\/X_Spot.png",
                         "additional": ""
                     },
                     {
-                        "name": "Overlap Detection",
-                        "type": "4",
-                        "subtype": "0",
-                        "resourceId": "11",
-                        "dependency": "0",
-                        "uid": "1585490755992207:19391",
-                        "fileId": "5",
-                        "originalId": "18446744073709551615",
-                        "publicId": "4",
-                        "source": "\/var\/folders\/s_\/tvtszf7j2qs32p9nc96p655m0000gn\/T\/Lens Studio-pYAuKl\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                        "additional": ""
-                    },
-                    {
-                        "name": "Initial Warning Alpha",
+                        "name": "Face Overlap Detection",
                         "type": "4",
                         "subtype": "0",
                         "resourceId": "12",
@@ -612,14 +675,58 @@
                         "publicId": "650",
                         "source": "\/Users\/ejwessel\/Downloads\/NoSound.mp3",
                         "additional": ""
+                    },
+                    {
+                        "name": "Hand Overlap Detection",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "17",
+                        "dependency": "0",
+                        "uid": "1585507476017993:486679",
+                        "fileId": "12",
+                        "originalId": "18446744073709551615",
+                        "publicId": "651",
+                        "source": "\/var\/folders\/s_\/tvtszf7j2qs32p9nc96p655m0000gn\/T\/Lens Studio-QyKovc\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "red_x_spot",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "18",
+                        "dependency": "0",
+                        "uid": "1585509612299826:528104",
+                        "fileId": "13",
+                        "originalId": "14",
+                        "publicId": "652",
+                        "source": "\/Users\/ejwessel\/Downloads\/noun_X_1890844 (1).png",
+                        "additional": ""
+                    },
+                    {
+                        "name": "DontTouchFaceIcon",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "19",
+                        "dependency": "0",
+                        "uid": "1585509890168687:544848",
+                        "fileId": "15",
+                        "originalId": "16",
+                        "publicId": "653",
+                        "source": "\/Users\/ejwessel\/Desktop\/Screen Shot 2020-03-29 at 3.24.41 PM.png",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1585503285124746:368009"
+                "resources": [
+                    {
+                        "uid": "1585509890168687:544848",
+                        "path_list": [
+                            "Screen Shot 2020-03-29 at 3"
+                        ]
+                    }
                 ]
             }
         },
