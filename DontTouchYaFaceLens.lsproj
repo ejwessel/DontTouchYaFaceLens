@@ -3,7 +3,7 @@
     "document_id": "X0t2d4_Tc2mdPpUJjt8N",
     "original_document_id": "X0t2d4_Tc2mdPpUJjt8N",
     "version": "23",
-    "lastChanged": "1585511298404",
+    "lastChanged": "1585528283391",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -37,6 +37,9 @@
                     ],
                     [
                         "Hand Overlap Detection"
+                    ],
+                    [
+                        "Instructions Alpha"
                     ],
                     [
                         "NoSound"
@@ -174,17 +177,17 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "18",
-                    "uid": "1585509612299826:528104",
-                    "name": "Files\/File13.png",
+                    "resId": "19",
+                    "uid": "1585509890168687:544848",
+                    "name": "Files\/File15.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
                 },
                 {
-                    "resId": "19",
-                    "uid": "1585509890168687:544848",
-                    "name": "Files\/File15.png",
+                    "resId": "20",
+                    "uid": "1585527593275569:21370",
+                    "name": "Files\/File17.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -316,6 +319,20 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1585527490933347:7425",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -336,7 +353,9 @@
                 "9": "1585494243153927:118580",
                 "10": "1585499645429088:277278",
                 "11": "1585499645464004:277413",
-                "12": "1585503285124746:368009"
+                "12": "1585503285124746:368009",
+                "13": "1585527490881681:7289",
+                "14": "1585527490932954:7424"
             }
         },
         "LayerComponent": {
@@ -402,6 +421,10 @@
                 {
                     "k": "16",
                     "v": "Files\/File16.png"
+                },
+                {
+                    "k": "17",
+                    "v": "Files\/File17.js"
                 }
             ]
         },
@@ -445,6 +468,10 @@
                     {
                         "k": "653",
                         "v": "DontTouchFaceIcon.png"
+                    },
+                    {
+                        "k": "654",
+                        "v": "Instructions Alpha.js"
                     }
                 ],
                 "hashes": [
@@ -466,7 +493,7 @@
                     },
                     {
                         "k": "646",
-                        "v": "589e5059a846c3a9f595a25a17ce0ef8"
+                        "v": "efb6058ad337f93345266f1e9d815c02"
                     },
                     {
                         "k": "647",
@@ -490,79 +517,90 @@
                     },
                     {
                         "k": "652",
-                        "v": "c167d149c7c341eeb7a109c90762c329"
+                        "v": "fff3a61d41a6752865d5c227fd80d16c"
                     },
                     {
                         "k": "653",
                         "v": "5a7977a77e5a25449082af9e4835302a"
+                    },
+                    {
+                        "k": "654",
+                        "v": "9ac614f818a303c7a121a409aa3cc579"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-03-29T15:36:35",
+                        "lastModified": "2020-03-29T20:29:10",
                         "name": "Public",
-                        "hash": "0ad666bfbf50a755090f6c1e008bb403",
+                        "hash": "50ae32218de75c4a5440f9fdaf64fd7e",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-12-13T20:21:52",
+                                "lastModified": "2020-03-29T20:24:46",
+                                "name": "Instructions Alpha.js",
+                                "hash": "9ac614f818a303c7a121a409aa3cc579",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-03-29T20:09:56",
                                 "name": "echopark_diff.png",
                                 "hash": "671afbc1d6810060ccbaac866a91cfa1",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-12-13T20:21:52",
+                                "lastModified": "2020-03-29T20:09:56",
                                 "name": "echopark_spec.png",
                                 "hash": "8e599835d0d45c5879eafb1f474469cd",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T15:24:47",
+                                "lastModified": "2020-03-29T20:09:56",
                                 "name": "DontTouchFaceIcon.png",
                                 "hash": "5a7977a77e5a25449082af9e4835302a",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T14:29:09",
+                                "lastModified": "2020-03-29T20:09:56",
                                 "name": "NoSound.mp3",
                                 "hash": "1c3f65a95f26976cae3a2f36af19a635",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T15:19:43",
+                                "lastModified": "2020-03-29T20:09:56",
                                 "name": "red_x_spot.png",
-                                "hash": "c167d149c7c341eeb7a109c90762c329",
+                                "hash": "fff3a61d41a6752865d5c227fd80d16c",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T15:36:35",
+                                "lastModified": "2020-03-29T20:29:10",
                                 "name": "Face Overlap Detection.js",
-                                "hash": "589e5059a846c3a9f595a25a17ce0ef8",
+                                "hash": "efb6058ad337f93345266f1e9d815c02",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T15:35:59",
+                                "lastModified": "2020-03-29T20:09:56",
                                 "name": "Hand Overlap Detection.js",
                                 "hash": "7e45b945ba8a46df2ee5988855227e69",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T15:14:37",
+                                "lastModified": "2020-03-29T20:09:56",
                                 "name": "black_x_spot.png",
                                 "hash": "f81eca643a162dd9fc98ccd218d5c8a3",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-12-13T20:21:47",
+                                "lastModified": "2020-03-29T20:09:56",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
@@ -699,7 +737,7 @@
                         "fileId": "13",
                         "originalId": "14",
                         "publicId": "652",
-                        "source": "\/Users\/ejwessel\/Downloads\/noun_X_1890844 (1).png",
+                        "source": "\/Users\/ejwessel\/Dev\/DontTouchYaFaceLens\/Public\/red_x_spot.png",
                         "additional": ""
                     },
                     {
@@ -714,19 +752,27 @@
                         "publicId": "653",
                         "source": "\/Users\/ejwessel\/Desktop\/Screen Shot 2020-03-29 at 3.24.41 PM.png",
                         "additional": ""
+                    },
+                    {
+                        "name": "Instructions Alpha",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "20",
+                        "dependency": "0",
+                        "uid": "1585527593275569:21370",
+                        "fileId": "17",
+                        "originalId": "18446744073709551615",
+                        "publicId": "654",
+                        "source": "\/var\/folders\/3l\/pxx9ncrs6j38399lw07gqxbw0000gn\/T\/Lens Studio-qNFnoO\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1585507476017993:486679",
-                        "path_list": [
-                            "Hand Overlap Detection"
-                        ]
-                    }
+                "objects": [
+                    "1585527490932954:7424"
                 ]
             }
         },
