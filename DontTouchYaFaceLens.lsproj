@@ -3,7 +3,7 @@
     "document_id": "X0t2d4_Tc2mdPpUJjt8N",
     "original_document_id": "X0t2d4_Tc2mdPpUJjt8N",
     "version": "23",
-    "lastChanged": "1585528283391",
+    "lastChanged": "1585528845537",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -493,7 +493,7 @@
                     },
                     {
                         "k": "646",
-                        "v": "efb6058ad337f93345266f1e9d815c02"
+                        "v": "09848686bb59581d7688a7abcaa5308c"
                     },
                     {
                         "k": "647",
@@ -525,21 +525,21 @@
                     },
                     {
                         "k": "654",
-                        "v": "9ac614f818a303c7a121a409aa3cc579"
+                        "v": "db50ced2ab3f6080ee3a2da797902079"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-03-29T20:29:10",
+                        "lastModified": "2020-03-29T20:40:40",
                         "name": "Public",
-                        "hash": "50ae32218de75c4a5440f9fdaf64fd7e",
+                        "hash": "c118535dc3c746cc0cde0b7b92a07d64",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T20:24:46",
+                                "lastModified": "2020-03-29T20:40:40",
                                 "name": "Instructions Alpha.js",
-                                "hash": "9ac614f818a303c7a121a409aa3cc579",
+                                "hash": "db50ced2ab3f6080ee3a2da797902079",
                                 "children": ""
                             },
                             {
@@ -579,9 +579,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-03-29T20:29:10",
+                                "lastModified": "2020-03-29T20:36:24",
                                 "name": "Face Overlap Detection.js",
-                                "hash": "efb6058ad337f93345266f1e9d815c02",
+                                "hash": "09848686bb59581d7688a7abcaa5308c",
                                 "children": ""
                             },
                             {
@@ -771,8 +771,13 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1585527490932954:7424"
+                "resources": [
+                    {
+                        "uid": "1585527593275569:21370",
+                        "path_list": [
+                            "Instructions Alpha"
+                        ]
+                    }
                 ]
             }
         },

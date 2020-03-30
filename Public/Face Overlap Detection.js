@@ -15,6 +15,15 @@ var warningDropShadowColor = script.warning.dropshadowSettings.fill.color
 var instructionsTextColor = script.instructions.textFill.color
 var instructionsDropShadowColor = script.instructions.dropshadowSettings.fill.color
 
+// Hide instructions if recording
+if (global.scene.isRecording()) {
+    // Hide Instructions
+    instructionsTextColor.w = 0
+    instructionsDropShadowColor.w = 0
+    script.instructions.textFill.color = instructionsTextColor
+    script.instructions.dropshadowSettings.fill.color = instructionsDropShadowColor
+}
+
 
 print("Distance: " + handPosition.distance(facePosition))
 if (script.hand.isTracking() && handPosition.distance(facePosition) < 7) {
@@ -34,6 +43,7 @@ if (script.hand.isTracking() && handPosition.distance(facePosition) < 7) {
     instructionsDropShadowColor.w = 0
     script.instructions.textFill.color = instructionsTextColor
     script.instructions.dropshadowSettings.fill.color = instructionsDropShadowColor
+
     
 } else {
     // FACE IS NOT BEING TOUCHED
